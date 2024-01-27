@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+footer{
+    height: 23vh;
+    background-color: grey;
+    position: fixed;
+    bottom: 0px; 
+    display: flex;
+    align-items: center;
+}
+footer div{
+    height: 22vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px; 
+    background-color: grey;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}

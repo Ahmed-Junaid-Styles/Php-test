@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="head.css"> -->
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            height: 5.5vh;
+            background-color: gray;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* font-size: 24px; */
+            color: aqua;
+            
+        }
+
+        header a {
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="login">Login</a>
+        <a class="about">About</a>
+        <a class="contact">Contact Us</a>
+    </header>
+
+    <script>
+        login = document.querySelector('.login');
+        about = document.querySelector('.about');
+        contact = document.querySelector('.contact');
+        login.onclick = ()=>{
+            window.location.href='login.php';
+        }
+        about.onclick = ()=>{
+            window.location.href='about.php';
+        }
+        contact.onclick = ()=>{
+            window.location.href='contact.php';
+        }
+    </script>
+</body>
+
+</html>
